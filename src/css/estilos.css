@@ -1,0 +1,106 @@
+html {
+    font-family: 'Poppins', sans-serif; font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.desktop {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    padding: 20px;
+}
+
+.texto {
+    color: white;
+    text-align: left;
+    max-width: 600px;
+    margin-top: -150px;
+}
+
+.texto h1 {
+    font-size: 40px;
+}
+
+.texto .descricao {
+    font-size: 16.5px;
+}
+
+.btn-register {
+    background-color: white;
+    border: none;
+    padding: 15px 60px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    transition:  transform 0.3s;
+}
+
+.btn-register:hover {
+    background-color: hsl(257, 40%, 60%);
+    transform: scale(1.05);
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons a:hover {
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+}
