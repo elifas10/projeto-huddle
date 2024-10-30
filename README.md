@@ -25,11 +25,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### 💻 Versão Web:
 
-![Layout Web](link-da-imagem-do-layout-web)
+![Layout Web](https://github.com/elifas10/projeto-huddle/blob/main/src/design/WEB.jpg)
 
 ### 📱 Versão Mobile:
 
-![Layout Mobile](link-da-imagem-do-layout-mobile)
+![Layout Mobile](src/design/MOBILE.jpg)
 
 ---
 
